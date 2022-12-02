@@ -19,7 +19,7 @@ body {
 }
 
 .head {
-    background-color: #ccc;
+    /* background-color: #ccc; */
     width: 1000px;
     padding: 40px;
     text-align: center;
@@ -27,17 +27,47 @@ body {
 }
 
 .nav {
-    background-color: #ddd;
+    /* background-color: #ddd; */
 }
 
 .nav ul {
     /* background-color: red; */
     width: 1000px;
     margin: 0 auto;
+    padding-left: 12px;
+}
+
+.nav ul li {
+    display: inline-block;
+}
+
+.nav ul li a {
+    /* background-color: red; */
+    padding: 20px;
+    display: block;
+}
+
+.contents {
+    width: 1000px;
+    margin: 0 auto;
+    padding: 30px;
+}
+
+.contents h2 {
+    padding-bottom: 30px;
+}
+
+.contents p {
+    margin-bottom: 30px;
 }
 
 .bottom {
-    background-color: #ccc;
+    /* background-color: #ccc; */
     padding: 40px;
     text-align: center;
+}
+
+.bottom p {
+    font-size: 14px;
+    color: #666;
 }
